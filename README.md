@@ -17,7 +17,7 @@ The purpose of this analysis is to use the Extract, Transform, Load (ETL) proces
       [the Movie Database (TMDb)](https://www.themoviedb.org/) and also contains ratings data file which will use for this challenges.
 
 
-#### 2. _Transform: the transformation step is used to clean up your data_
+#### 2. Transform: _the transformation step is used to clean up your data_
   - Create a Function to Clean the Data: that takes in the argument "movie"
   - Create another function that takes in three arguments: Wikipedia data, Kaggle metadata, and MovieLens rating data
     - Read in the three data files

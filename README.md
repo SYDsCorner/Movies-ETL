@@ -12,7 +12,7 @@ The purpose of this analysis is to use the Extract, Transform, Load (ETL) proces
 ### Resources:
 - Software: 
     - Jupyter Notebooks 6.4.3
-    - Python 3.8.8 
+       - Python 3.8.8 
     - pgAdmin 4
 - Data sources:  
     - Movies on [Wikipedia](https://en.wikipedia.org/wiki/Lists_of_films) from 1990 to 2018

@@ -1,4 +1,6 @@
 # Movies-ETL
+![etl-process-explained-diagram](https://user-images.githubusercontent.com/89308251/159180166-2d3c9706-1d52-490c-b794-4e6386e7cbbc.png)
+
 
 ## Challenge Overview
 
@@ -6,8 +8,22 @@
 
 The purpose of this analysis is to use the Extract, Transform, Load (ETL) process to create data pipelines that takes in new data, performs the appropriate transformations, and loads the cleaned dataset into a SQL database.
    
-    
-      
+
+### Resources:
+- Software: 
+    - Jupyter Notebooks 6.4.3
+    - Python 3.8.8 
+    - pgAdmin 4
+- Data sources:  
+    - Movies on [Wikipedia](https://en.wikipedia.org/wiki/Lists_of_films) from 1990 to 2018
+      - wikipedia-movies.json
+    - [Kaggle](https://www.kaggle.com/rounakbanik/the-movies-dataset) 
+      - [movies_metadata.csv](https://github.com/SYDsCorner/Movies-ETL/blob/main/Resources/movies_metadata.csv) 
+      - [ratings.csv](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=ratings.csv)
+
+  
+## The ETL Process (Extract, Transform, Load)
+
 #### 1. Extract:  _Gathering data from one or multiple sources_ 
 
 - the Wikipedia Movies data stored as a JSON 
@@ -51,15 +67,4 @@ The purpose of this analysis is to use the Extract, Transform, Load (ETL) proces
  	- Add MovieLens rating CSV data to a SQL database
 
 
-### Resources:
-- Software: 
-    - Jupyter Notebooks 6.4.3
-    - Python 3.8.8 
-    - pgAdmin 4
-- Data sourced: from  
-    - Movies on [Wikipedia](https://en.wikipedia.org/wiki/Lists_of_films) from 1990 to 2018
-      - wikipedia-movies.json
-    - [Kaggle](https://www.kaggle.com/rounakbanik/the-movies-dataset) 
-      - movies_metadata.csv 
-      - ratings.csv
  
